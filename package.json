@@ -4,7 +4,9 @@
   "description": "Desafio referente ao módulo: API Node.js com SOLID",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start:dev": "tsx watch src/server.ts",
+    "test": "vitest run --dir src/user-cases",
+    "test:watch": "vitest --dir src/user-cases"
   },
   "author": "",
   "license": "ISC",
