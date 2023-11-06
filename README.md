@@ -30,9 +30,21 @@ FindAFriend.
 
 ## RNFs (Requisitos não-funcionais)
 
+## Entity
+- Pet
+- City
+- Org
+- User
+
+
 
 ## OBS:
 
+docker
+ - docker-compose build
+
 npm run start:dev
+
+
 
 
