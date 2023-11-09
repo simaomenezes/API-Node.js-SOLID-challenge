@@ -41,8 +41,11 @@ FindAFriend.
 ## OBS:
 
 docker
- - docker-compose build
+ - docker compose up -d
 
+prisma:
+- npx prisma generate
+- npx prisma migrate dev
 npm run start:dev
 
 
