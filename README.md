@@ -30,9 +30,24 @@ FindAFriend.
 
 ## RNFs (Requisitos não-funcionais)
 
+## Entity
+- Pet
+- City
+- Org
+- User
+
+
 
 ## OBS:
 
+docker
+ - docker compose up -d
+
+prisma:
+- npx prisma generate
+- npx prisma migrate dev
 npm run start:dev
+
+
 
 
